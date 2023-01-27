@@ -9,6 +9,12 @@
             "email": "jordan@langleyfoxall.co.uk"
         }
     ],
+    "repositories": [
+        {
+            "url": "git@github.com:EpsilonTelecommunications/laravel-password-exposed-validation-rule.git",
+            "type": "vcs"
+        }
+    ],
     "require": {
         "php": ">=7.2",
         "laravel/framework": "^5.5||^6.0||^7.0||^8.0||^9.0||^10.0",
@@ -36,6 +42,4 @@
             ]
         }
     }
-        
-    
 }

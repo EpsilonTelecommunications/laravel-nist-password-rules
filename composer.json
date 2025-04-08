@@ -10,10 +10,22 @@
         }
     ],
     "repositories": [
-      {
-        "url": "git@github.com:EpsilonTelecommunications/laravel-password-exposed-validation-rule.git",
-        "type": "vcs"
-     }
+        {
+            "url": "git@github.com:EpsilonTelecommunications/laravel-password-exposed-validation-rule.git",
+            "type": "vcs"
+        },
+        {
+            "url": "git@github.com:langleyfoxall/password_exposed",
+            "type": "vcs"
+        },
+        {
+            "url": "git@github.com:langleyfoxall/psr-18-guzzle-adapter",
+            "type": "vcs"
+        },
+        {
+            "url": "git@github.com:langleyfoxall/DO-File-Cache-PSR-6",
+            "type": "vcs"
+        }
     ],
     "require": {
         "php": ">=7.2",
@@ -41,5 +53,12 @@
                 "LangleyFoxall\\LaravelNISTPasswordRules\\ServiceProvider"
             ]
         }
-    }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

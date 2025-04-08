@@ -15,15 +15,15 @@
             "type": "vcs"
         },
         {
-            "url": "git@github.com:langleyfoxall/password_exposed",
+            "url": "git@github.com:langleyfoxall/password_exposed.git",
             "type": "vcs"
         },
         {
-            "url": "git@github.com:langleyfoxall/psr-18-guzzle-adapter",
+            "url": "git@github.com:langleyfoxall/psr-18-guzzle-adapter.git",
             "type": "vcs"
         },
         {
-            "url": "git@github.com:langleyfoxall/DO-File-Cache-PSR-6",
+            "url": "git@github.com:langleyfoxall/DO-File-Cache-PSR-6.git",
             "type": "vcs"
         }
     ],

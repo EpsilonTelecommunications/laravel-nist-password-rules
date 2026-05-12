@@ -8,12 +8,12 @@ use Orchestra\Testbench\TestCase;
 
 class RepetitiveCharactersTest extends TestCase
 {
-    protected function getPackageProviders($app)
+    protected function getPackageProviders($app): array
     {
         return [ServiceProvider::class];
     }
 
-    public function repetitiveCharactersProvider()
+    public static function repetitiveCharactersProvider(): array
     {
         return [
             ['aaa'],
@@ -24,7 +24,7 @@ class RepetitiveCharactersTest extends TestCase
         ];
     }
 
-    public function nonRepetitiveCharactersProvider()
+    public static function nonRepetitiveCharactersProvider(): array
     {
         return [
             ['aaaaab'],
